@@ -5,7 +5,7 @@ Space Complexity: O(n) + O(n recursion stack)
 
 import java.util.*;
 
-class Solution {
+class FibonacciNumber {
 
     private static int solve(int n, int[] dp) {
         if (n <= 1) {
@@ -42,7 +42,7 @@ Space Complexity: O(n)
 
 import java.util.*;
 
-class Solution {
+class FibonacciNumber {
 
     public static int fib(int n) {
         if (n <= 1) {
@@ -80,7 +80,7 @@ Space Complexity: O(1)
 
 import java.util.*;
 
-class Solution {
+class FibonacciNumber {
 
     public static int fib(int n) {
         if (n <= 1) {
